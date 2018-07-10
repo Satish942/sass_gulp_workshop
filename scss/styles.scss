@@ -1,7 +1,21 @@
-body {
-    background-color: red;
-    
-    h1 {
-      color: purple;
-    }
+
+html, body {
+  padding-top: 54px;
+  background-color: grey;
+  height: 100%;
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
   }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
